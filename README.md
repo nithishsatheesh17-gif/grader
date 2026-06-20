@@ -98,7 +98,7 @@ View score breakdown + feedback cards
 
 
 
-├── backend/ # S's domain
+├── backend/ 
 
 │ ├── main.py # FastAPI server + /evaluate endpoint
 
@@ -112,7 +112,7 @@ View score breakdown + feedback cards
 
 ├── src/
 
-│ ├── components/ # Ab's domain
+│ ├── components/ # 
 
 │ │ ├── RubricBuilder.jsx
 
@@ -120,13 +120,13 @@ View score breakdown + feedback cards
 
 │ │ └── ScoreCard.jsx
 
-│ ├── App.jsx # N's domain — layout + wiring
+│ ├── App.jsx #  — layout + wiring
 
-│ ├── index.css # N's domain — styles
+│ ├── index.css #— styles
 
-│ ├── theme.css # N's domain — design tokens
+│ ├── theme.css # design tokens
 
-│ ├── api.js # Adv's domain — single API call
+│ ├── api.js # single API call
 
 │ └── main.jsx # React entry point
 
@@ -198,15 +198,9 @@ Response:
 
 
 
-👥 Team Pringles
-
-
-
-RoleMemberOwnershipBackend + GeminiSbackend/ComponentsAbsrc/components/Layout + StylingNApp.jsx, CSS filesIntegration + RootAdvapi.js, root configs
-
 📄 License
 
 
 
-Built for hackathon demonstration purposes. remove the s role adv role n role a role remove others role and make it an alone project readme 
+Built for hackathon demonstration purposes.
 
