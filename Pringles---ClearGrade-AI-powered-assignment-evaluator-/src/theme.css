@@ -1,0 +1,72 @@
+/* ============================================================
+   ClearGrade — Design Tokens  (theme.css)
+   Loaded BEFORE index.css so every component can reference vars.
+   ============================================================ */
+
+:root {
+  /* ── Typography ─────────────────────────────────────── */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+
+  /* ── Spacing scale (4-px grid) ─────────────────────── */
+  --space-xs:  4px;
+  --space-sm:  8px;
+  --space-md:  16px;
+  --space-lg:  24px;
+  --space-xl:  32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  /* ── Border radius ─────────────────────────────────── */
+  --radius-sm:  8px;
+  --radius-md:  14px;
+  --radius-lg:  20px;
+  --radius-xl:  28px;
+  --radius-pill: 9999px;
+
+  /* ── Dark-mode palette ─────────────────────────────── */
+  --bg-body:       #0b0e14;
+  --bg-surface:    #12161f;
+  --bg-card:       #171c28;
+  --bg-input:      #1c2230;
+  --bg-hover:      #222939;
+
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-input:  rgba(255, 255, 255, 0.10);
+  --border-focus:  rgba(99, 140, 255, 0.50);
+
+  --text-primary:   #f0f2f5;
+  --text-secondary: #8892a6;
+  --text-muted:     #5c6478;
+  --text-inverse:   #0b0e14;
+
+  /* ── Accent — cool indigo/blue ─────────────────────── */
+  --accent:        #638cff;
+  --accent-hover:  #7fa3ff;
+  --accent-glow:   rgba(99, 140, 255, 0.35);
+
+  /* ── Score colours ─────────────────────────────────── */
+  --color-high:        #34d399;          /* Vibrant Emerald  */
+  --color-high-bg:     rgba(52, 211, 153, 0.10);
+  --color-high-border: rgba(52, 211, 153, 0.25);
+
+  --color-medium:        #fbbf24;        /* Warm Amber       */
+  --color-medium-bg:     rgba(251, 191, 36, 0.10);
+  --color-medium-border: rgba(251, 191, 36, 0.25);
+
+  --color-low:        #f87171;           /* Soft Coral/Red   */
+  --color-low-bg:     rgba(248, 113, 113, 0.10);
+  --color-low-border: rgba(248, 113, 113, 0.25);
+
+  /* ── Shadows ───────────────────────────────────────── */
+  --shadow-sm:  0 1px  3px rgba(0, 0, 0, 0.30);
+  --shadow-md:  0 4px 14px rgba(0, 0, 0, 0.35);
+  --shadow-lg:  0 8px 30px rgba(0, 0, 0, 0.40);
+  --shadow-glow:0 0  40px var(--accent-glow);
+
+  /* ── Transitions ───────────────────────────────────── */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 0.15s;
+  --duration-mid:  0.3s;
+  --duration-slow: 0.5s;
+}
